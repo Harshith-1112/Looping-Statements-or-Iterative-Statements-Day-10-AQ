@@ -1,0 +1,391 @@
+Day-10&11
+
+23/10/2025
+
+Looping Statements or Iterative Statements:
+
+While:
+if we don't know number of iterations then we should go for while loop.
+
+Syntax:
+while(some action){
+---
+---
+---
+}
+
+top tested loop.
+semicolon is not mandatory
+minimum no of executions are zero.
+
+
+
+do-while:
+if at least one time is executing the do block then we should go for do-while.
+
+Syntax:
+do{
+---
+---
+---
+}while(some condition);
+
+
+semicolon is mandatory.
+bottom tested loop.
+minimum no of executions are 1.
+
+for-loop:
+if we know no of iterations then we should go for for-loop.
+
+Syntax:
+for(initialization-section; condition-check; increment/decrement section){
+---
+---
+}
+
+initialization-section:
+
+this section will be executed only once in entire for loop representation.
+
+jumping statements:
+
+break;
+
+the break statement is used to terminate the execution of loop or switch or label block;
+
+we can use break statement in 3 places only such as
+inside switch
+2. inside loops
+3. inside label blocks
+
+
+if we are using any otherwise we are getting compile time error.
+
+continue;
+
+to skip the current iteration and proceed to the next iteration.
+
+// Examples:
+table multiplication
+count the digits in a number
+sum of digits
+factorial number
+amstrong number
+reverse number
+palindromic number
+Fibonacci series
+sum of even and odd number up to n terms
+print prime numbers sum up to n
+
+
+
+Day-10 Assignment Questions
+============================
+
+frequntly asked Interview Questions
+===================================
+Question-1). Multiplication Table – Math Helper App
+
+Scenario:
+A student uses a math app that helps them practice multiplication tables.
+Write a program that takes a number and prints its multiplication table up to 10.
+
+Sample Input:
+
+5
+
+Sample Output:
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+
+
+Test Cases:
+
+testcase-1
+Input: 3
+Output:
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+3 x 10 = 30
+
+testcase-2
+Input: 7
+Output:
+7 x 1 = 7
+...
+7 x 10 = 70
+
+testcase-3
+Input: 10
+Output:
+10 x 1 = 10
+...
+10 x 10 = 100
+
+Question-2). Count Digits – Mobile PIN Analyzer
+
+Scenario:
+A mobile app checks how many digits are in the entered PIN.
+
+Sample Input:
+78956
+
+Sample Output:
+5
+
+
+Test Cases:
+
+testcase-1
+Input: 1234
+Output: 4
+
+testcase-2
+Input: 9
+Output: 1
+
+testcase-3
+Input: 100000
+Output: 6
+
+
+ Question-3).Sum of Digits – Digital Sum Finder
+Scenario:
+A payment app calculates a checksum by summing digits of a transaction ID.
+
+Sample Input:
+1234
+
+Sample Output:
+10
+
+Test Cases:
+
+testcase-1
+Input: 987
+Output: 24
+
+testcase-2
+Input: 56
+Output: 11
+
+testcase-3
+Input: 1005
+Output: 6
+
+ Question-4). Factorial – Combinatorics Calculator
+Scenario:
+A calculator app computes factorials for permutation formulas.
+
+Sample Input:
+5
+
+Sample Output:
+120
+
+Test Cases:
+
+testcase-1
+Input: 3
+Output: 6
+
+testcase-2
+Input: 6
+Output: 720
+
+testcase-3
+Input: 0
+Output: 1
+
+
+ Question-5). Armstrong Number – Number Magic Game
+Scenario:
+A number puzzle app checks if a number is an Armstrong number.
+
+Sample Input:
+153
+
+Sample Output:
+Armstrong Number
+
+
+Test Cases:
+
+testcase-1
+Input: 370
+Output: Armstrong Number
+
+testcase-2
+Input: 371
+Output: Armstrong Number
+
+testcase-3
+Input: 123
+Output: Not Armstrong
+
+
+
+
+Question-6) Reverse Number – Mirror Number App
+
+Scenario:
+A mirror app reverses any number entered by the user.
+
+Sample Input:
+1234
+
+Sample Output:
+4321
+
+Test Cases:
+
+testcase-1
+Input: 9876
+Output: 6789
+
+testcase-2
+Input: 120
+Output: 21
+
+testcase-3
+Input: 1001
+Output: 1001
+
+
+
+
+ Question-7) Palindrome Number – Number Pal Game
+
+Scenario:
+A number game rewards players if the entered number reads the same forward and backward.
+
+Sample Input:
+121
+
+Sample Output:
+Palindrome
+
+
+Test Cases:
+
+testcase-1
+Input: 1221
+Output: Palindrome
+
+testcase-2
+Input: 123
+Output: Not Palindrome
+
+testcase-3
+Input: 101
+Output: Palindrome
+
+
+
+
+Question-8) Fibonacci Series – Nature Sequence Generator
+
+Scenario:
+A biology simulator models growth patterns using Fibonacci numbers.
+
+Sample Input:
+7
+Sample Output:
+0 1 1 2 3 5 8
+
+
+Test Cases:
+
+testcase-1
+Input: 5
+Output: 0 1 1 2 3
+
+testcase-2
+Input: 8
+Output: 0 1 1 2 3 5 8 13
+
+testcase-3
+Input: 10
+Output: 0 1 1 2 3 5 8 13 21 34
+
+
+
+Question-9) Sum of Even and Odd Numbers – Statistics Analyzer
+
+Scenario:
+An analytics app finds the total of even and odd numbers up to a limit n.
+
+Sample Input:
+10
+
+
+Sample Output:
+Sum of even numbers: 30
+Sum of odd numbers: 25
+
+
+Test Cases:
+
+testcase-1
+Input: 5
+Output:
+Sum of even numbers: 6
+Sum of odd numbers: 9
+
+testcase-2
+Input: 8
+Output:
+Sum of even numbers: 20
+Sum of odd numbers: 16
+
+testcase-3
+Input: 3
+Output:
+Sum of even numbers: 2
+Sum of odd numbers: 4
+
+
+
+Question-10) Prime Numbers up to N – Prime Finder Tool
+
+Scenario:
+A cryptography app generates prime numbers up to n for key creation.
+
+Sample Input:
+10
+
+
+Sample Output:
+2 3 5 7
+
+
+Test Cases:
+
+testcase-1
+Input: 5
+Output: 2 3 5
+
+testcase-2
+Input: 15
+Output: 2 3 5 7 11 13
+
+testcase-3
+Input: 20
+Output: 2 3 5 7 11 13 17 19
+
